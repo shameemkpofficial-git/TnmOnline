@@ -2,7 +2,7 @@ import React from "react";
 import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
 import AntDesign from "react-native-vector-icons/AntDesign";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
-
+import PrimaryButton from "../Component/PrimaryButton/primaryButton";
 
 
 function Cart2(){
@@ -74,10 +74,9 @@ function Cart2(){
                         <Text style={{fontSize:20, color:'#7F807F', fontWeight:'600'}}>2 Item</Text>
                         <Text style={{fontSize:22, color:'black', fontWeight:'600'}}>£170</Text>
                     </View>
-
-                    <TouchableOpacity style={{height:'100%', width:150, backgroundColor:'#17B107', borderRadius:5}}>
-                        <Text style={{textAlign:'center', color:'#fff', marginTop:20, fontSize:20, fontWeight:'700'}}>Pay Now</Text>
-                    </TouchableOpacity>
+                    <View style={{width:150, marginHorizontal:20, height:50}}><PrimaryButton> </PrimaryButton></View>
+                    
+                    
                 </View>                 
             </View>
 

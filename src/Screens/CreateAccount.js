@@ -28,7 +28,7 @@ function createAccount(){
             <Text style={{fontSize:14, color:'black', fontWeight:'600', marginLeft:5}}>Login</Text>
         </View>
 
-        <View style={{height:50, justifyContent:"center", flexDirection:'row', marginTop:40}}>
+        <View style={{height:50, justifyContent:"center", flexDirection:'row', marginTop:40, marginHorizontal:40}}>
             <PrimaryButton></PrimaryButton>        
         </View>
         </View>

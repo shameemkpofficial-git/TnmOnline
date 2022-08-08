@@ -63,15 +63,15 @@ function Category(){
                 <Entypo name='unread' size={34} color='#707070' style={{marginLeft:20}}></Entypo>
             </View>
 
-            <View style={{height:50, backgroundColor:'#fff', marginTop:20, flexDirection:'row', marginHorizontal:20}}>
+            <View style={{height:40, backgroundColor:'#fff', marginTop:20, flexDirection:'row', marginHorizontal:20}}>
                 <View style={{height:'100%', backgroundColor:'#F6F6F6', width:100, borderRadius:15, flexDirection:'row', justifyContent:'center'}}>
                     <Text style={{color:'black', fontSize:18, fontWeight:'400', marginTop:10}}>Filter</Text>
-                    <AntDesign name='filter' size={30} color='black' style={{marginTop:5}}></AntDesign>
+                    <AntDesign name='filter' size={25} color='black' style={{marginTop:10}}></AntDesign>
                 </View>
 
                 <View style={{height:'100%', backgroundColor:'#F6F6F6', width:100, borderRadius:15, flexDirection:'row', marginLeft:15, justifyContent:'center'}}>
                     <Text style={{color:'black', fontSize:18, fontWeight:'400', marginTop:10}}>Sort By</Text>
-                    <Ionicons name='swap-vertical' size={30} color='black' style={{marginTop:5}}></Ionicons>
+                    <Ionicons name='swap-vertical' size={25} color='black' style={{marginTop:10}}></Ionicons>
                 </View>
             </View>
 

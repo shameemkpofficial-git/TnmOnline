@@ -34,15 +34,11 @@ function Veri_Code(){
             </View>
             </View>
 
-            <View style={{height:50, backgroundColor:'white', marginTop:20, flexDirection:'row', marginHorizontal:0}}>
+            <View style={{height:50, backgroundColor:'white', marginTop:20, flexDirection:'row', marginHorizontal:20}}>
                 <Text style={{fontSize:14}}>If you dont get OTP</Text>
                 <Text style={{fontSize:14, fontWeight:'600', color:'black', marginLeft:10}}>Resend</Text>
             </View>
-            <View style={{height:50}}>
-                <SecondaryButton>
-
-                </SecondaryButton>
-        </View>
+            
         </View>
     )
 }

@@ -11,7 +11,7 @@ function Home(){
           <AntDesign name='arrowleft' size={34} color='black'></AntDesign>
         </View>
 
-        <Image source={require('../Assets/Images/Login.png')} style={{height:150}}></Image>
+        <Image source={require('../Assets/Images/Login.png')} style={{height:150, width:390}}></Image>
          
         <View style={{height:90, backgroundColor:'white', marginHorizontal:20, marginTop:30}}>
         <Text style={{fontWeight:'bold', fontSize:34, color:'black'}}>Account Login</Text>
@@ -31,7 +31,7 @@ function Home(){
         <View style={{height:50, flexDirection:'row', backgroundColor:'white', marginHorizontal:20, marginTop:20}}>
           <Text style={{fontSize:17}}>New Here?</Text>
           <Text style={{fontSize:17, fontWeight:'600', marginLeft:10, color:'black'}}>Create an account</Text>
-          <Text style={{fontSize:17, color:'red', fontWeight:'600', marginLeft:10}}>Forgot Password</Text>
+          <Text style={{fontSize:16, color:'red', fontWeight:'600', marginLeft:10}}>Forgot Password</Text>
         </View>
         <View style={{height:50, marginTop:20}}>
             <SecondaryButton>
