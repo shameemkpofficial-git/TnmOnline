@@ -65,13 +65,13 @@ function Category(){
 
             <View style={{height:40, backgroundColor:'#fff', marginTop:20, flexDirection:'row', marginHorizontal:20}}>
                 <View style={{height:'100%', backgroundColor:'#F6F6F6', width:100, borderRadius:15, flexDirection:'row', justifyContent:'center'}}>
-                    <Text style={{color:'black', fontSize:18, fontWeight:'400', marginTop:10}}>Filter</Text>
-                    <AntDesign name='filter' size={25} color='black' style={{marginTop:10}}></AntDesign>
+                    <Text style={{color:'black', fontSize:18, fontWeight:'400', marginTop:6}}>Filter</Text>
+                    <AntDesign name='filter' size={20} color='black' style={{marginTop:9}}></AntDesign>
                 </View>
 
                 <View style={{height:'100%', backgroundColor:'#F6F6F6', width:100, borderRadius:15, flexDirection:'row', marginLeft:15, justifyContent:'center'}}>
-                    <Text style={{color:'black', fontSize:18, fontWeight:'400', marginTop:10}}>Sort By</Text>
-                    <Ionicons name='swap-vertical' size={25} color='black' style={{marginTop:10}}></Ionicons>
+                    <Text style={{color:'black', fontSize:18, fontWeight:'400', marginTop:6}}>Sort By</Text>
+                    <Ionicons name='swap-vertical' size={20} color='black' style={{marginTop:9}}></Ionicons>
                 </View>
             </View>
 

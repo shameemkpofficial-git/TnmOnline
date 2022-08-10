@@ -24,7 +24,7 @@ function Cart1(){
                         <Text style={{fontSize:17, fontWeight:'500', marginTop:5}}>9 pcs</Text>
                         <View style={{height:20, backgroundColor:'#fff', flexDirection:'row', width:70, position:'absolute', marginLeft:170, top:5, borderRadius:10, borderWidth:1, borderColor:'#CFCFCF'}}>
                             <AntDesign name='minus' size={20} color='#17B107'></AntDesign>
-                            <Text style={{fontSize:16}}> 3 </Text>
+                            <Text style={{fontSize:16, fontWeight:'600', color:'black'}}> 3 </Text>
                             <AntDesign name='plus' size={20} color='#17B107'></AntDesign>
 
                         </View>
@@ -32,7 +32,7 @@ function Cart1(){
                         <View style={{backgroundColor:'#fff', height:40, flexDirection:'row', marginTop:10}}>
                             <Text style={{fontSize:17, fontWeight:'600'}}>£58</Text>
                             <Text style={{color:'#7F807F', fontSize:17, marginLeft:10}}>£̶5̶8̶</Text>
-                            <Text style={{color:'#17B107', marginLeft:20}}>Save £2 </Text>
+                            <Text style={{color:'#17B107', marginLeft:20, fontSize:17}}>Save £2 </Text>
                             <Text style={{color:'black', fontSize:17, fontWeight:'600', marginLeft:10}}>Pepsi</Text>
                         </View>
                     </View>
@@ -45,7 +45,7 @@ function Cart1(){
                         <Text style={{fontSize:17, fontWeight:'500', marginTop:5}}>9 pcs</Text>
                         <View style={{height:20, backgroundColor:'#fff', flexDirection:'row', width:70, position:'absolute', marginLeft:170, top:5, borderRadius:10, borderWidth:1, borderColor:'#CFCFCF'}}>
                             <AntDesign name='minus' size={20} color='#17B107'></AntDesign>
-                            <Text style={{fontSize:16}}> 3 </Text>
+                            <Text style={{fontSize:16, fontWeight:'600', color:'black'}}> 3 </Text>
                             <AntDesign name='plus' size={20} color='#17B107'></AntDesign>
 
                         </View>
@@ -53,7 +53,7 @@ function Cart1(){
                         <View style={{backgroundColor:'#fff', height:40, flexDirection:'row', marginTop:10}}>
                             <Text style={{fontSize:17, fontWeight:'600'}}>£58</Text>
                             <Text style={{color:'#7F807F', fontSize:17, marginLeft:10}}>£̶5̶8̶</Text>
-                            <Text style={{color:'#17B107', marginLeft:20}}>Save £2 </Text>
+                            <Text style={{color:'#17B107', marginLeft:20, fontSize:17}}>Save £2 </Text>
                             <Text style={{color:'black', fontSize:17, fontWeight:'600', marginLeft:10}}>Pepsi</Text>
                         </View>
                     </View>
@@ -65,7 +65,7 @@ function Cart1(){
                 <Text style={{color:'black', fontSize:18, fontWeight:'400'}}>Recomended Products</Text>
                 <View style={{height:50, backgroundColor:'#F6F6F6', borderRadius:5, flexDirection:'row', justifyContent:'space-around'}}>
                     <Text style={{color:'black', fontSize:18, fontWeight:'400', marginTop:10}}>851442</Text>
-                    <MaterialIcons name='verified' size={30} color='#17B107' style={{marginTop:10}}></MaterialIcons>
+                    <AntDesign name='checkcircleo' size={28} color='#17B107' style={{marginTop:10}}></AntDesign>
                 </View>
             </View>
             <View style={{height:5, backgroundColor:'#F6F6F6'}}></View>

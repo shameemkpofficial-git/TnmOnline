@@ -45,6 +45,41 @@ function HomeScreenCart(){
         }
     ]
 
+    const RecommendedProducts = [
+        {
+            id:1,
+            image: require('../Assets/Images/ChocoChip.png'),
+            title: 'Happy Happy Choco-chip Cookies',
+            quantity: '9 Pcs',
+            price: '£̶5̶8̶',
+            offerPrice:'£58',
+        },
+        {
+            id:2,
+            image: require('../Assets/Images/Biscuit.png'),
+            title: 'Happy Happy Choco-chip Cookies',
+            quantity: '9 Pcs',
+            price: '£̶5̶8̶',
+            offerPrice:'£58',
+        },
+        {
+            id:3,
+            image: require('../Assets/Images/ChocoChip.png'),
+            title: 'Happy Happy Choco-chip Cookies',
+            quantity: '9 Pcs',
+            price: '£̶5̶8̶',
+            offerPrice:'£58',
+        },
+        {
+            id:4,
+            image: require('../Assets/Images/Biscuit.png'),
+            title: 'Happy Happy Choco-chip Cookies',
+            quantity: '9 Pcs',
+            price: '£̶5̶8̶',
+            offerPrice:'£58',
+        }
+    ]
+
     const renderDeal =({item}) => (
         
         <View style={{height:270, backgroundColor:'#fff', marginTop:10, width:165, marginLeft:5}}>
@@ -67,6 +102,9 @@ function HomeScreenCart(){
         </View>
     )
 
+    const renderRecomendedProducts = ({item}) => (
+        <View style={{height:10, width:120, backfaceVisibility:'red'}}></View>
+    )
     return(
         <KeyboardAwareScrollView>
     <View style={{flex:1, backgroundColor:'#fff'}}>
@@ -130,7 +168,7 @@ function HomeScreenCart(){
         <View style={{height:5, backgroundColor:'#707070', marginTop:10}}></View>
 
         <View style={{height:90, backgroundColor:'#17B107', marginTop:10, marginHorizontal:20, flexDirection:'row', width:350}}>
-            <View style={{height:'100%', backgroundColor:'#17B107', width:200,}}>
+            <View style={{height:'89%', backgroundColor:'#17B107', width:200,marginTop:10, marginLeft:10}}>
                 <Text style={{fontSize:27, fontWeight:'800', color:'#fff'}}>Sell your Phone With Us</Text>
                 <MaterialCommunityIcons name='chevron-right-circle-outline' size={30} color='#F6F6F6' style={{position:'absolute', left:110, top:35}}></MaterialCommunityIcons>
             </View>
@@ -138,7 +176,15 @@ function HomeScreenCart(){
                 <Image source={require('../Assets/Images/Couple.png')} style={{marginLeft:10}}></Image>
             </View>
         </View>
-        
+        <View style={{ height: 5, backgroundColor: '#707070', marginTop:10,  }}></View>
+        <Text style={{fontSize:22, color:'black', marginHorizontal:20}}>Recommended Products</Text>
+
+        <FlatList
+        data={RecommendedProducts}
+        renderItem={renderRecomendedProducts}
+        numColumns={2}
+        scrollEnabled={true}></FlatList>
+
     </View>
     </KeyboardAwareScrollView>
     

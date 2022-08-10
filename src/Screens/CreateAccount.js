@@ -6,7 +6,7 @@ import PrimaryButton from "../Component/PrimaryButton/primaryButton";
 
 function createAccount(){
     return(
-        <View style={{height:'100%', width:'100%', backgroundColor:'#fff'}}>
+        <View style={{flex:1, backgroundColor:'#fff'}}>
             <View style={{height:50, width:70, backgroundColor:'white', marginLeft:10, marginTop:10}}>
           <AntDesign name='arrowleft' size={34} color='black'></AntDesign>
         </View>
@@ -29,7 +29,9 @@ function createAccount(){
         </View>
 
         <View style={{height:50, justifyContent:"center", flexDirection:'row', marginTop:40, marginHorizontal:40}}>
-            <PrimaryButton></PrimaryButton>        
+            <PrimaryButton>
+                <Text>Get OTP</Text>
+                </PrimaryButton>        
         </View>
         </View>
     )

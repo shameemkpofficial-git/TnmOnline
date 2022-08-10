@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, View, Text,Image } from "react-native";
+import { StyleSheet, View, Text,Image, ScrollView } from "react-native";
 import AntDesign from "react-native-vector-icons/AntDesign";
 import Entypo from "react-native-vector-icons/Entypo";
 import FontAwesome from "react-native-vector-icons/FontAwesome";
@@ -8,6 +8,7 @@ import Ionicons from "react-native-vector-icons/Ionicons";
 
 function ProductView1() {
     return(
+        <ScrollView>
         <View style={{ flex: 1, backgroundColor: '#fff' }}>
                 <View style={{ height: 50, width: 50, backgroundColor: 'white', marginLeft: 10, marginTop: 10, flexDirection: 'row' }}>
                     <AntDesign name='arrowleft' size={34} color='black'></AntDesign>
@@ -48,9 +49,9 @@ function ProductView1() {
 
                     </View>
                     <View style={{height:60, backgroundColor:'#5A25CB', marginTop:10, flexDirection:'row', justifyContent:'space-evenly'}}>
-                        <Text style={{color:'#fff', fontSize:18, marginTop:10}}>Deal Ends in</Text>
+                        <Text style={{color:'#fff', fontSize:18, marginTop:15}}>Deal Ends in</Text>
                         <View style={{height:60, width:2, backgroundColor:'#A178FB'}}></View>
-                        <Text style={{fontSize:18, color:'#fff', marginTop:10}}>02d:12h: 20m : 00s</Text>
+                        <Text style={{fontSize:18, color:'#fff', marginTop:15}}>02d:12h: 20m : 00s</Text>
                     </View>
                 </View>
                 <View style={{ height: 5, backgroundColor: '#F6F6F6', width: '100%',}}></View>
@@ -83,6 +84,7 @@ function ProductView1() {
                 </View>
 
             </View>           
+            </ScrollView>
     )
 }
 export default ProductView1;

@@ -6,7 +6,7 @@ import SecondaryButton from "../Component/secondaryButton/secondaryButton";
 
 function Veri_Code(){
     return(
-        <View style={{height:'100%', width:'100%', backgroundColor:'#fff'}}>
+        <View style={{flex:1, backgroundColor:'#fff'}}>
             <View style={{height:50, width:70, backgroundColor:'white', marginTop:10, marginLeft:10}}>
             <AntDesign name='arrowleft' size={34} color='black'></AntDesign>
             </View>
@@ -18,7 +18,7 @@ function Veri_Code(){
 
             <View style={{height:50, backgroundColor:'#fff', marginHorizontal:20, marginTop:10, flexDirection:'row'}}>
                 <Text style={{fontSize:18, fontWeight:'600', color:'black'}}>+44 9854 25452</Text>
-                <Feather name='edit' size={25} color='green' style={{marginLeft:10}}></Feather>
+                <Feather name='edit' size={25} color='#17B107' style={{marginLeft:10}}></Feather>
             </View>
 
             <View style={{height:70,flexDirection:'row', backgroundColor:'white', marginHorizontal:20, marginTop:60, width:375}}>

@@ -6,7 +6,7 @@ import SecondaryButton from "../Component/secondaryButton/secondaryButton";
 function Home(){
     return(
         <ScrollView>
-        <View style={{height:'100%', width:'100%', backgroundColor:'white'}}>
+        <View style={{flex:1, backgroundColor:'white'}}>
         <View style={{height:50, width:70, backgroundColor:'white', marginLeft:10, marginTop:10}}>
           <AntDesign name='arrowleft' size={34} color='black'></AntDesign>
         </View>
@@ -24,7 +24,7 @@ function Home(){
    
         <View style={{height:70, backgroundColor:'#fff', flexDirection:'row', marginHorizontal:20}}>
         <TextInput placeholder='Password' style={{backgroundColor:'white', height:50, width:'70%', borderRadius:5, borderWidth:1, borderBottomColor:'green', borderLeftColor:'white', borderRightColor:'white', borderTopColor:'white', fontSize:17}}></TextInput>
-        <AntDesign name='rightcircle' size={44} color='green' style={{marginLeft:40, marginTop:20}}></AntDesign>
+        <AntDesign name='rightcircle' size={44} color='#17B107' style={{marginLeft:40, marginTop:20}}></AntDesign>
    
         </View>
    
@@ -35,7 +35,7 @@ function Home(){
         </View>
         <View style={{height:50, marginTop:20}}>
             <SecondaryButton>
-
+              <Text>Login with OTP</Text>
             </SecondaryButton>
         </View>
         

@@ -72,7 +72,7 @@ function ProductView() {
 
                         <View style={{ height: '100%', backgroundColor: '#fff', width: '62%' }}>
                             <View style={{ backgroundColor: '#fff', width: '100%', height: 15, flexDirection: 'row', marginLeft: 10 }}>
-                                <Text style={{ fontSize: 15, fontWeight: '500' }}>5</Text>
+                                <Text style={{ fontSize: 14, fontWeight: '500' }}>5</Text>
                                 <Entypo name='star' size={20} color='#8F8F8E' style={{}}></Entypo>
                                 <View style={{ height: '100%', width: 150, backgroundColor: '#E2E2E2', marginLeft: 5, borderRadius: 10 }}>
                                     <View style={{ height: '100%', width: '70%', backgroundColor: '#039F22', borderRadius: 10 }}></View>
@@ -80,7 +80,7 @@ function ProductView() {
                                 <Text style={{ color: '#8F8F8E', fontWeight: '400', marginLeft: 5 }}>70%</Text>
                             </View>
                             <View style={{ backgroundColor: '#fff', width: '100%', height: 15, flexDirection: 'row', marginLeft: 10, marginTop: 5 }}>
-                                <Text style={{ fontSize: 15, fontWeight: '500' }}>4</Text>
+                                <Text style={{ fontSize: 14, fontWeight: '500' }}>4</Text>
                                 <Entypo name='star' size={20} color='#8F8F8E' style={{}}></Entypo>
                                 <View style={{ height: '100%', width: 150, backgroundColor: '#E2E2E2', marginLeft: 5, borderRadius: 10 }}>
                                     <View style={{ height: '100%', width: '90%', backgroundColor: '#039F22', borderRadius: 10 }}></View>
@@ -88,7 +88,7 @@ function ProductView() {
                                 <Text style={{ color: '#8F8F8E', fontWeight: '400', marginLeft: 5 }}>90%</Text>
                             </View>
                             <View style={{ backgroundColor: '#fff', width: '100%', height: 15, flexDirection: 'row', marginLeft: 10, marginTop: 5 }}>
-                                <Text style={{ fontSize: 15, fontWeight: '500' }}>3</Text>
+                                <Text style={{ fontSize: 14, fontWeight: '500' }}>3</Text>
                                 <Entypo name='star' size={20} color='#8F8F8E' style={{}}></Entypo>
                                 <View style={{ height: '100%', width: 150, backgroundColor: '#E2E2E2', marginLeft: 5, borderRadius: 10 }}>
                                     <View style={{ height: '100%', width: '5%', backgroundColor: '#039F22', borderRadius: 10 }}></View>
@@ -96,7 +96,7 @@ function ProductView() {
                                 <Text style={{ color: '#8F8F8E', fontWeight: '400', marginLeft: 5 }}>5%</Text>
                             </View>
                             <View style={{ backgroundColor: '#fff', width: '100%', height: 15, flexDirection: 'row', marginLeft: 10, marginTop: 5 }}>
-                                <Text style={{ fontSize: 15, fontWeight: '500' }}>2</Text>
+                                <Text style={{ fontSize: 14, fontWeight: '500' }}>2</Text>
                                 <Entypo name='star' size={20} color='#8F8F8E' style={{}}></Entypo>
                                 <View style={{ height: '100%', width: 150, backgroundColor: '#E2E2E2', marginLeft: 5, borderRadius: 10 }}>
                                     <View style={{ height: '100%', width: '2%', backgroundColor: '#FF8001', borderRadius: 10 }}></View>
@@ -104,7 +104,7 @@ function ProductView() {
                                 <Text style={{ color: '#8F8F8E', fontWeight: '400', marginLeft: 5 }}>2%</Text>
                             </View>
                             <View style={{ backgroundColor: '#fff', width: '100%', height: 15, flexDirection: 'row', marginLeft: 10, marginTop: 5 }}>
-                                <Text style={{ fontSize: 15, fontWeight: '500' }}>1</Text>
+                                <Text style={{ fontSize: 14, fontWeight: '500' }}>1</Text>
                                 <Entypo name='star' size={20} color='#8F8F8E' style={{}}></Entypo>
                                 <View style={{ height: '100%', width: 150, backgroundColor: '#E2E2E2', marginLeft: 5, borderRadius: 10 }}>
                                     <View style={{ height: '100%', width: '15%', backgroundColor: '#FF0000', borderRadius: 10 }}></View>
@@ -149,12 +149,12 @@ function ProductView() {
                         <Image source={require('../Assets/Images/Smile.png')}></Image>
                         <Text style={{color:'black', marginLeft:5, fontSize:16}}>Give us Rating</Text>
                         </View>
-                        <View style={{backgroundColor:'#fff', height:30, flexDirection:'row', marginTop:10}}>
-                        <Entypo name='star' size={20} color='#E5CF0E'></Entypo>
-                        <Entypo name='star' size={20} color='#E5CF0E'></Entypo>
-                        <Entypo name='star' size={20} color='#E5CF0E'></Entypo>
-                        <Entypo name='star' size={20} color='#F6F6F6'></Entypo>
-                        <Entypo name='star' size={20} color='#F6F6F6'></Entypo>
+                        <View style={{backgroundColor:'#fff', height:50, flexDirection:'row', marginTop:10, alignSelf:'center'}}>
+                        <Entypo name='star' size={30} color='#E5CF0E'></Entypo>
+                        <Entypo name='star' size={30} color='#E5CF0E'></Entypo>
+                        <Entypo name='star' size={30} color='#E5CF0E'></Entypo>
+                        <Entypo name='star' size={30} color='#F6F6F6'></Entypo>
+                        <Entypo name='star' size={30} color='#F6F6F6'></Entypo>
                         </View>
 
                         <TextInput style={{height:50, backgroundColor:'#fff', borderWidth:1, borderColor:'#F6F6F6', borderRadius:5, color:'F6F6F6'}} placeholder='Say something about food'></TextInput>
